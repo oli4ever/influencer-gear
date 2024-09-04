@@ -1,0 +1,12 @@
+Mobile screen logo size:
+
+Alibaba-33*18
+Amazon-50*15
+Daraz-51*15
+Ebay-44*17
+Rakuten-58*16
+Walmart-67*15
+Target-67*23
+
+background:475px
+banner-img:440px
