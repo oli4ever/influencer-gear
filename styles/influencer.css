@@ -519,7 +519,7 @@ footer {
     .popular-container {
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     .popular-items {
