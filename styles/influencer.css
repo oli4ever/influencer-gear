@@ -262,9 +262,9 @@ body {
 }
 
 .see-more img {
-    width: 24px;
-    height: 22px;
-    margin-top: -2px;
+    width: 18px;
+    height: 16px;
+    margin-top: 4px;
     margin-left: 5px;
 }
 
@@ -547,7 +547,7 @@ footer {
     }
 
     .see-more {
-        margin-left: 63%;
+        margin-left: 57%;
     }
 
     .featured {
