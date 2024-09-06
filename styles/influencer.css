@@ -511,24 +511,24 @@ footer {
     }
 
     .popular-title {
-        margin: 10px 0px 20px 70px;
+        margin: 10px 0px 20px 80px;
         font-size: 1rem;
     }
 
     .popular-container {
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: 10px;
+        margin-left: 15px;
         align-items: center;
         justify-content: center;
     }
 
     .popular-items {
-        max-width: 80%;
+        max-width: 88%;
     }
 
     .popular-image {
-        max-width: 88%;
+        max-width: 90%;
     }
 
     .popular-text {
@@ -548,13 +548,13 @@ footer {
     }
 
     .see-more {
-        margin-left: 35%;
+        margin-left: 42%;
     }
 
     .featured {
         display: flex;
         flex-direction: column-reverse;
-        margin: 50px 120px -50px -20px;
+        margin: 50px 120px -50px -15px;
         width: 80%;
     }
 
