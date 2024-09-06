@@ -510,7 +510,7 @@ footer {
     }
 
     .popular-title {
-        margin: 10px 0px 20px 90px;
+        margin: 10px 0px 20px 70px;
         font-size: 1rem;
     }
 
@@ -522,8 +522,12 @@ footer {
         justify-content: center;
     }
 
+    .popular-items {
+        max-width: 80%;
+    }
+
     .popular-image {
-        max-width: 90%;
+        max-width: 88%;
     }
 
     .popular-text {
@@ -543,7 +547,7 @@ footer {
     }
 
     .see-more {
-        margin-left: 49%;
+        margin-left: 35%;
     }
 
     .featured {
