@@ -23,6 +23,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    align-items: center;
 }
 
 /* header styles */
@@ -387,20 +388,18 @@ footer {
     }
 
     .nav-title {
-        grid-column: 1 / -1;
-        /*Make the title span across both columns*/
+        grid-column: 1 / -1; /*Make the title span across both columns*/
         font-size: 1rem;
-        margin-left: 80px;
+        margin-left: 50px;
     }
 
     .nav>ul {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        /* Two equal columns */
+        grid-template-columns: 1fr 1fr; /* Two equal columns */
         gap: 20px;
         width: 100%;
         align-content: center;
-        margin-left: 30px;
+        margin-left: 10px;
     }
 
     .nav li {
@@ -412,15 +411,13 @@ footer {
     .nav li:nth-child(1),
     .nav li:nth-child(2),
     .nav li:nth-child(3) {
-        grid-column: 1;
-        /*Place these items in the first column */
+        grid-column: 1; /*Place these items in the first column */
     }
 
     .nav li:nth-child(5),
     .nav li:nth-child(6),
     .nav li:nth-child(4) {
-        grid-column: 2;
-        /* Place these items in the second column */
+        grid-column: 2; /* Place these items in the second column */
         margin-top: -80px;
     }
 
@@ -444,17 +441,19 @@ footer {
         background-repeat: no-repeat;
         width: 80%;
         position: relative;
-        margin: -10px 20px 20px -30px;
+        margin: -10px 20px 20px -100px;
+        justify-content: left;
+        align-items: start;
     }
 
     .banner-pic {
         position: relative;
         width: 80%;
-        margin: 50px 10px 0 2px;
+        margin: 55px 10px 0 2px;
     }
 
     .banner-content {
-        margin: -230px 10px 20px -80px;
+        margin: -200px 10px 20px -150px;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -490,7 +489,7 @@ footer {
         gap: 10px;
         width: 100%;
         margin-top: -120px;
-        margin-left: -20px;
+        margin-left: -50px;
     }
 
     .logo img {
@@ -512,22 +511,20 @@ footer {
     }
 
     .popular-title {
-        margin: 10px 0px 20px 130px;
+        margin: 10px 0px 20px 120px;
         font-size: 1rem;
     }
 
     .popular-container {
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: 15px;
-    }
-
-    .popular-items {
-        width: 120%;
+        margin-left: 20px;
+        align-items: center;
+        justify-content: center;
     }
 
     .popular-image {
-        width: 92%;
+        max-width: 100%;
     }
 
     .popular-text {
@@ -547,13 +544,13 @@ footer {
     }
 
     .see-more {
-        margin-left: 57%;
+        margin-left: 50%;
     }
 
     .featured {
         display: flex;
         flex-direction: column-reverse;
-        margin: 50px 100px -50px 20px;
+        margin: 50px 90px -50px 5px;
         width: 80%;
     }
 
@@ -576,9 +573,12 @@ footer {
     }
 
     .featured-img img {
-        width: 100%;
+        max-width: 80%;
+        height: auto;
         margin-top: -50px;
-        justify-content: left;
+        margin-left: 25px;
+        justify-content: center;
+        align-items: center;
     }
 
     .footer {
@@ -586,8 +586,9 @@ footer {
     }
 
     .footer-content {
-        padding: 20px 30px 20px 0px;
+        padding: 20px 120px 20px 0px;
         justify-content: center;
+        text-align: center;
     }
 
     .footer-title {
