@@ -439,7 +439,7 @@ footer {
     .background-image {
         background-size: 100%;
         background-repeat: no-repeat;
-        width: 80%;
+        width: 70%;
         position: relative;
         margin: -10px 20px 20px -100px;
         justify-content: left;
@@ -453,11 +453,10 @@ footer {
     }
 
     .banner-content {
-        margin: -200px 10px 20px -150px;
+        margin: -200px 10px 20px -170px;
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 100%;
         max-width: 300px;
     }
 
@@ -489,7 +488,7 @@ footer {
         gap: 10px;
         width: 100%;
         margin-top: -120px;
-        margin-left: -50px;
+        margin-left: -70px;
     }
 
     .logo img {
@@ -511,14 +510,14 @@ footer {
     }
 
     .popular-title {
-        margin: 10px 0px 20px 120px;
+        margin: 10px 0px 20px 90px;
         font-size: 1rem;
     }
 
     .popular-container {
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: 20px;
+        margin-left: 10px;
         align-items: center;
         justify-content: center;
     }
@@ -544,13 +543,13 @@ footer {
     }
 
     .see-more {
-        margin-left: 50%;
+        margin-left: 49%;
     }
 
     .featured {
         display: flex;
         flex-direction: column-reverse;
-        margin: 50px 90px -50px 5px;
+        margin: 50px 120px -50px -10px;
         width: 80%;
     }
 
@@ -576,7 +575,7 @@ footer {
         max-width: 80%;
         height: auto;
         margin-top: -50px;
-        margin-left: 25px;
+        margin-left: 30px;
         justify-content: center;
         align-items: center;
     }
