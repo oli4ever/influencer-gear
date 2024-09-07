@@ -449,7 +449,7 @@ footer {
     .banner-pic {
         position: relative;
         width: 80%;
-        margin: 55px 10px 0 2px;
+        margin: 50px 10px 0 2px;
     }
 
     .banner-content {
@@ -486,10 +486,10 @@ footer {
         grid-template-columns: repeat(4, 70px);
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
         width: 100%;
         margin-top: -120px;
-        margin-left: -70px;
+        margin-left: -77px;
     }
 
     .logo img {
@@ -518,7 +518,7 @@ footer {
     .popular-container {
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: 15px;
+        margin-left: 5px;
         align-items: center;
         justify-content: center;
     }
@@ -548,13 +548,13 @@ footer {
     }
 
     .see-more {
-        margin-left: 42%;
+        margin-left: 40%;
     }
 
     .featured {
         display: flex;
         flex-direction: column-reverse;
-        margin: 50px 120px -50px -15px;
+        margin: 50px 120px -50px -10px;
         width: 80%;
     }
 
@@ -563,12 +563,15 @@ footer {
         max-width: 330px;
         width: 120%;
         text-align: center;
+        margin-left: -10px;
     }
 
     .featured-description {
         max-width: 350px;
-        width: 90%;
+        width: 50%;
         text-align: center;
+        margin-left: 50px;
+        font-size: 0.625rem;
     }
 
     .btn-join {
@@ -577,7 +580,7 @@ footer {
     }
 
     .featured-img img {
-        max-width: 75%;
+        max-width: 73%;
         height: auto;
         margin-top: -50px;
         margin-left: 30px;
