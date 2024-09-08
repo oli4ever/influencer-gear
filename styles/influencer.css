@@ -631,29 +631,28 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
-        align-items: center;
-        justify-content: center;
         margin-top: -20px;
+        margin-left: 70px;
     }
 
     .nav-title {
         grid-column: 1 / -1; /*Make the title span across both columns*/
-        font-size: 1rem;
-        margin-left: 30px;
+        font-size: 1.5rem;
+        margin-left: 10px;
     }
 
     .nav>ul {
         display: grid;
         grid-template-columns: 1fr 1fr; /* Two equal columns */
         gap: 20px;
-        width: 100%;
+        width: 150%;
         align-content: center;
-        margin-left: -10px;
+        margin-left: -20px;
     }
 
     .nav li {
         list-style: none;
-        font-size: 0.75rem;
+        font-size: 1rem;
         white-space: nowrap;
     }
 
@@ -663,11 +662,11 @@ footer {
         grid-column: 1; /*Place these items in the first column */
     }
 
+    .nav li:nth-child(4),
     .nav li:nth-child(5),
-    .nav li:nth-child(6),
-    .nav li:nth-child(4) {
+    .nav li:nth-child(6) {
         grid-column: 2; /* Place these items in the second column */
-        margin-top: -80px;
+        margin-top: -90px;
     }
 
     .search {
@@ -675,7 +674,7 @@ footer {
     }
 
     .cart {
-        margin-top: 15px;
+        margin-top: 20px;
         margin-left: 10px;
     }
 
@@ -688,37 +687,33 @@ footer {
     .background-image {
         background-size: 100%;
         background-repeat: no-repeat;
-        width: 60%;
+        width: 80%;
         position: relative;
-        margin: -10px 20px 20px -140px;
-        justify-content: left;
-        align-items: start;
+        margin: -10px 20px 20px -30px;
     }
 
     .banner-pic {
         position: relative;
         width: 80%;
-        margin: 50px 10px 0 2px;
+        margin: 60px 10px 0 2px;
     }
 
     .banner-content {
-        margin: -200px 10px 20px -180px;
-        justify-content: center;
-        align-items: center;
+        margin: -120px 10px 20px -60px;
         text-align: center;
-        max-width: 300px;
+        max-width: 120%;
     }
 
     .banner-title {
-        font-size: 1.5rem;
+        font-size: 2.375rem;
     }
 
     .banner-description {
-        max-width:90%;
-        font-size: 0.75rem;
+        max-width:70%;
+        font-size: 1rem;
         font-weight: 500;
         text-align: center;
-        margin-left: 15px;
+        margin-left: 70px;
     }
 
     .btn-prebook {
@@ -736,14 +731,14 @@ footer {
         grid-template-columns: repeat(4, 70px);
         justify-content: center;
         align-items: center;
-        gap: 5px;
+        gap: 20px;
         width: 100%;
         margin-top: -120px;
-        margin-left: -77px;
+        margin-left: -20px;
     }
 
     .logo img {
-        width: 50px;
+        width: 60px;
         height: auto;
         padding-right: 10px;
     }
@@ -761,20 +756,20 @@ footer {
     }
 
     .popular-title {
-        margin: 10px 0px 20px 80px;
-        font-size: 1rem;
+        margin: 10px 0px 20px 120px;
+        font-size: 1.5rem;
     }
 
     .popular-container {
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: 5px;
+        margin-left: 70px;
         align-items: center;
         justify-content: center;
     }
 
     .popular-items {
-        max-width: 88%;
+        max-width: 100%;
     }
 
     .popular-image {
@@ -798,7 +793,7 @@ footer {
     }
 
     .see-more {
-        margin-left: 40%;
+        margin-left: 55%;
     }
 
     .featured {
@@ -809,33 +804,29 @@ footer {
     }
 
     .featured-title {
-        font-size: 1.375rem;
-        max-width: 330px;
-        width: 120%;
+        font-size: 1.875rem;
+        max-width: 100%;
         text-align: center;
-        margin-left: -5px;
+        margin-left: 50px;
     }
 
     .featured-description {
-        max-width: 350px;
-        width: 50%;
+        max-width: 72%;
         text-align: center;
-        margin-left: 50px;
-        font-size: 0.625rem;
+        margin-left: 70px;
+        font-size: 1rem;
     }
 
     .btn-join {
         padding: 10px 24px;
-        margin-left: 80px;
+        margin-left: 150px;
     }
 
     .featured-img img {
-        max-width: 73%;
+        max-width: 90%;
         height: auto;
         margin-top: -50px;
-        margin-left: 20px;
-        justify-content: center;
-        align-items: center;
+        margin-left: 40px;
     }
 
     .footer {
