@@ -388,14 +388,16 @@ footer {
     }
 
     .nav-title {
-        grid-column: 1 / -1; /*Make the title span across both columns*/
+        grid-column: 1 / -1;
+        /*Make the title span across both columns*/
         font-size: 1rem;
         margin-left: 30px;
     }
 
     .nav>ul {
         display: grid;
-        grid-template-columns: 1fr 1fr; /* Two equal columns */
+        grid-template-columns: 1fr 1fr;
+        /* Two equal columns */
         gap: 20px;
         width: 100%;
         align-content: center;
@@ -411,13 +413,15 @@ footer {
     .nav li:nth-child(1),
     .nav li:nth-child(2),
     .nav li:nth-child(3) {
-        grid-column: 1; /*Place these items in the first column */
+        grid-column: 1;
+        /*Place these items in the first column */
     }
 
     .nav li:nth-child(5),
     .nav li:nth-child(6),
     .nav li:nth-child(4) {
-        grid-column: 2; /* Place these items in the second column */
+        grid-column: 2;
+        /* Place these items in the second column */
         margin-top: -80px;
     }
 
@@ -465,7 +469,7 @@ footer {
     }
 
     .banner-description {
-        max-width:90%;
+        max-width: 90%;
         font-size: 0.75rem;
         font-weight: 500;
         text-align: center;
@@ -630,24 +634,24 @@ footer {
     .nav {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        margin-top: -20px;
-        margin-left: 70px;
+        gap: 2%;
+        margin-top: 5%;
+        margin-left: 25%;
     }
 
     .nav-title {
         grid-column: 1 / -1; /*Make the title span across both columns*/
         font-size: 1.5rem;
-        margin-left: 10px;
+        margin-left: 2%;
     }
 
     .nav>ul {
         display: grid;
-        grid-template-columns: 1fr 1fr; /* Two equal columns */
-        gap: 20px;
-        width: 150%;
+        grid-template-columns: 1fr 1fr;
+        gap: 10%;
+        width: 130%;
         align-content: center;
-        margin-left: -20px;
+        margin-left: -12%;
     }
 
     .nav li {
@@ -659,67 +663,67 @@ footer {
     .nav li:nth-child(1),
     .nav li:nth-child(2),
     .nav li:nth-child(3) {
-        grid-column: 1; /*Place these items in the first column */
+        grid-column: 1; /* Place these items in the first column */
     }
 
     .nav li:nth-child(4),
     .nav li:nth-child(5),
     .nav li:nth-child(6) {
         grid-column: 2; /* Place these items in the second column */
-        margin-top: -90px;
+        margin-top: -42%;
     }
 
     .search {
-        margin-left: 15px;
+        margin-left: 12%;
     }
 
     .cart {
-        margin-top: 20px;
-        margin-left: 10px;
+        margin-top: 17%;
+        margin-left: 5%;
     }
 
     .banner {
         flex-direction: column-reverse;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 2%;
     }
 
     .background-image {
         background-size: 100%;
         background-repeat: no-repeat;
-        width: 80%;
+        max-width: 60%;
         position: relative;
-        margin: -10px 20px 20px -30px;
+        margin: 10% 4% 4% -5%; 
     }
 
     .banner-pic {
         position: relative;
-        width: 80%;
-        margin: 60px 10px 0 2px;
+        max-width: 80%;
+        margin: 19% 2% 0 -5%; 
     }
 
     .banner-content {
-        margin: -120px 10px 20px -75px;
+        margin: 2% 2% 4% -5%; 
         text-align: center;
         max-width: 120%;
     }
 
     .banner-title {
-        font-size: 2.375rem;
+        font-size: 3.25rem;
     }
 
     .banner-description {
-        max-width:70%;
+        max-width: 50%;
         font-size: 1rem;
-        font-weight: 500;
+        font-weight: 600;
         text-align: center;
-        margin-left: 70px;
+        margin-left: 25%; 
     }
 
     .btn-prebook {
         font-weight: 500;
         padding: 10px 20px;
-        margin-left: 20px;
+        margin-left: -2%;
     }
 
     hr {
@@ -731,10 +735,11 @@ footer {
         grid-template-columns: repeat(4, 70px);
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        column-gap: 5%;
+        row-gap: 20%;
         width: 100%;
-        margin-top: -120px;
-        margin-left: -20px;
+        margin-top: -17%; 
+        margin-left: -5%; 
     }
 
     .logo img {
@@ -746,24 +751,24 @@ footer {
     .logo a:nth-child(5),
     .logo a:nth-child(6),
     .logo a:nth-child(7) {
-        margin-left: 40px;
+        margin-left: 60%; 
     }
 
     .popular {
         display: flex;
         flex-direction: column;
-        margin-top: -50px;
+        margin-top: -5%; 
     }
 
     .popular-title {
-        margin: 10px 0px 20px 120px;
+        margin: 2% 0 4% 30%; 
         font-size: 1.5rem;
     }
 
     .popular-container {
         display: grid;
-        grid-template-columns: 1fr;
-        margin-left: 60px;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10%;
         align-items: center;
         justify-content: center;
     }
@@ -792,41 +797,45 @@ footer {
         font-weight: 400;
     }
 
+    .popular-container .popular-items:nth-child(9){
+        margin-left: 60%;
+    }
+
     .see-more {
-        margin-left: 53%;
+        margin-left: 56%;
     }
 
     .featured {
         display: flex;
         flex-direction: column-reverse;
-        margin: 50px 120px -50px -10px;
+        margin: 6.5% 15.6% -6.5% -1.3%;  
         width: 80%;
     }
 
     .featured-title {
-        font-size: 1.875rem;
-        max-width: 100%;
+        font-size: 2.375rem;
+        max-width: 90%;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 10%;  
     }
 
     .featured-description {
-        max-width: 72%;
+        max-width: 48%;
         text-align: center;
-        margin-left: 70px;
+        margin-left: 30%;  
         font-size: 1rem;
     }
 
     .btn-join {
         padding: 10px 24px;
-        margin-left: 150px;
+        margin-left: 40%;  
     }
 
     .featured-img img {
-        max-width: 90%;
+        max-width: 100%;
         height: auto;
-        margin-top: -50px;
-        margin-left: 40px;
+        margin-top: -7%;  
+        margin-left: 5%;  
     }
 
     .footer {
@@ -834,7 +843,7 @@ footer {
     }
 
     .footer-content {
-        padding: 20px 120px 20px 10px;
+        padding: 2.6% 15.6% 2.6% 1.3%;  
         justify-content: center;
         text-align: center;
     }
@@ -858,9 +867,6 @@ footer {
         font-size: 12px;
     }
 
-
 }
 
-@media screen and (min-width:769px) and (max-width:1024px) {
-    
-}
+@media screen and (min-width:769px) and (max-width:1024px) {}
