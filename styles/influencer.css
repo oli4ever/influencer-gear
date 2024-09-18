@@ -391,7 +391,7 @@ footer {
 
     .nav-title {
         grid-column: 1 / -1; /*Make the title span across both columns*/
-        margin-left: 100px;
+        margin-left: 30px;
     }
 
     .nav>ul {
@@ -400,7 +400,7 @@ footer {
         gap: 20px;
         width: 100%;
         align-content: center;
-        margin-left: 60px;
+        margin-left: -10px;
     }
 
     .nav li {
@@ -440,30 +440,31 @@ footer {
     .background-image {
         background-size: 100%;
         background-repeat: no-repeat;
-        width: 70%;
+        width: 60%;
         position: relative;
-        margin: -10px 20px 20px 10px;
+        margin: -10px 20px 20px -100px;
     }
 
     .banner-pic {
         position: relative;
         width: 80%;
-        margin: 45px 10px 0 2px;
+        margin: 40px 10px 0 2px;
     }
 
     .banner-content {
-        margin: -250px 10px 20px -120px;
+        margin: -250px 10px 20px -200px;
         text-align: center;
         max-width: 100%;
     }
 
     .banner-title {
-        font-size: 2.125rem;
+        font-size: 1.5rem;
         width:130%;
     }
 
     .banner-description {
-        width: 90%;
+        width: 80%;
+        font-size: 0.75rem;
         font-weight: 500;
         text-align: center;
         margin-left: 80px;
@@ -471,7 +472,7 @@ footer {
 
     .btn-prebook {
         font-weight: 500;
-        margin-left: 100px;
+        margin-left: 120px;
     }
 
     hr {
@@ -483,14 +484,14 @@ footer {
         grid-template-columns: repeat(4, 70px);
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 5px;
         width: 100%;
         margin-top: -120px;
-        margin-left: -1px;
+        margin-left: -40px;
     }
 
-    .logo img {
-        width: 60px;
+    .logo a img {
+        width: 50px;
         height: auto;
         padding-right: 10px;
     }
@@ -508,15 +509,16 @@ footer {
     }
 
     .popular-title {
-        margin: 10px 0px 20px -20px;
+        margin: 10px 0px 20px -120px;
         text-align: center;
+        font-size: 1.25rem;
     }
 
     .popular-container {
         display: grid;
         grid-template-columns: 1fr;
-        width: 85%;
-        padding: 0 20px;
+        width: 65%;
+        padding: 0 10px;
         align-items: center;
         justify-items: center;
     }
@@ -526,7 +528,7 @@ footer {
     }
 
     .popular-image {
-        width: 93%;
+        width: 89%;
     }
 
     .popular-text {
@@ -546,45 +548,43 @@ footer {
     }
 
     .see-more {
-        margin-left: 70%;
+        margin-left: 44%;
     }
 
     .featured {
         display: flex;
         flex-direction: column-reverse;
-        margin: 150px 120px 0px 2px;
+        margin: 150px 120px 0px -50px;
     }
 
     .featured-title {
-        font-size: 1.75rem;
-        width: 110%;
+        font-size: 1.25rem;
+        width: 80%;
         text-align: center;
-        margin-left: 30px;
+        margin-left: 60px;
     }
 
     .featured-description {
-        width: 87%;
+        width: 70%;
         text-align: center;
-        margin-left: 70px;
+        margin-left: 80px;
+        font-size: 0.75rem;
     }
 
     .btn-join {
-        margin-left: 150px;
+        margin-left: 130px;
+        padding:10px 20px;
     }
 
     .featured-img img {
-        width: 100%;
+        width: 75%;
         height: auto;
         margin-top: -50px;
-        margin-left: 50px;
-    }
-
-    footer {
-        width: 220%;
+        margin-left: 65px;
     }
 
     .footer-content {
-        padding: 5% 1% 5% 25%;
+        padding: 5% 30% 5% 2%;
         text-align: center; 
     }
 
