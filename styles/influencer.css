@@ -391,7 +391,7 @@ footer {
 
     .nav-title {
         grid-column: 1 / -1; /*Make the title span across both columns*/
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     .nav>ul {
@@ -400,7 +400,7 @@ footer {
         gap: 20px;
         width: 100%;
         align-content: center;
-        margin-left: 1px;
+        margin-left: -5px;
     }
 
     .nav li {
@@ -448,7 +448,7 @@ footer {
     .banner-pic {
         position: relative;
         width: 80%;
-        margin: 40px 10px 0 2px;
+        margin: 35px 10px 0 2px;
     }
 
     .banner-content {
@@ -473,6 +473,7 @@ footer {
     .btn-prebook {
         font-weight: 500;
         margin-left: 120px;
+        padding: 10px 20px;
     }
 
     hr {
@@ -580,11 +581,11 @@ footer {
         width: 64%;
         height: auto;
         margin-top: -50px;
-        margin-left: 65px;
+        margin-left: 90px;
     }
 
     .footer-content {
-        padding: 5% 20%;
+        padding: 5% 30% 5% 2%;
         text-align: center; 
     }
 
