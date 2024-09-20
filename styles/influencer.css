@@ -723,6 +723,8 @@ footer {
     .nav-title {
         grid-column: 1 / -1; /*Make the title span across both columns*/
         text-align: center;
+        position: relative;
+        left:-70px;
     }
 
     .nav>ul {
@@ -732,7 +734,7 @@ footer {
         align-content: center;
         margin-top: 10%;
         position: relative;
-        left: 62%;
+        left: 25%;
     }
 
     .nav li {
@@ -776,7 +778,7 @@ footer {
         background-repeat: no-repeat;
         max-width: 60%;
         position: relative;
-        margin: -6% 4% 4% 5%;
+        margin: -6% 27% 4% 5%;
     }
 
     .banner-pic {
@@ -793,6 +795,8 @@ footer {
 
     .banner-title {
         font-size: 2.375rem;
+        position: relative;
+        left:-50px;
     }
 
     .banner-description {
@@ -800,12 +804,13 @@ footer {
         font-size: 1rem;
         font-weight: 600;
         text-align: center;
-        margin-left: 15%;
+        position: relative;
+        left:-80px;
     }
 
     .btn-prebook {
         font-weight: 500;
-        margin-left: -2%;
+        margin-left: -25%;
     }
 
     hr {
@@ -820,7 +825,7 @@ footer {
         gap: 15px;
         width: 100%;
         margin-top: -70%;
-        margin-left: 1%;
+        margin-left: -10%;
     }
 
      .logo a img {
@@ -846,15 +851,16 @@ footer {
     }
 
     .popular-title {
-        margin: 10px 0px 20px 5px;
+        margin: 10px 150px 20px 5px;
         text-align: center;
     }
 
     .popular-container {
         display: grid;
-        grid-template-columns:repeat(2, minmax(300px, 1fr));
-        width: 95%;
+        grid-template-columns:1fr;
+        width: 80%;
         padding: 0 20px;
+        justify-items: left;
     }
 
     .popular-items {
@@ -883,7 +889,7 @@ footer {
 
     .see-more {
         position: relative;
-        left: -46%;
+        left: -22%;
         white-space: nowrap;
     }
 
@@ -892,33 +898,36 @@ footer {
         flex-direction: column-reverse;
         position: relative;
         top: -20px;
-        left: -20px;
+        left: -100px;
     }
 
     .featured-title {
         font-size: 2rem;
+        width: 130%;
         text-align: center;
     }
 
     .featured-description {
-        width: 65%;
+        font-size:1rem;
+        width: 95%;
         text-align: center;
-        margin-left: 15%;
+        position: relative;
+        left: 50px;
     }
 
     .btn-join {
-        margin-left: 32%;
+        margin-left: 35%;
     }
 
     .featured-img img {
         width: 100%;
         height: auto;
         margin-top: -10%;
-        margin-left: 1%;
+        margin-left: 10%;
     }
 
     .footer-content {
-        padding: 5% 30%;
+        padding: 5% 30% 5% 15%;
         text-align: center;
     }
 
