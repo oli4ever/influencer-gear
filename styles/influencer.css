@@ -517,7 +517,7 @@ footer {
     }
 
     .popular-title {
-        margin: 10px 0px 20px -80px;
+        margin: 10px 0px 20px -100px;
         text-align: center;
         font-size: 1.25rem;
     }
@@ -525,7 +525,7 @@ footer {
     .popular-container {
         display: grid;
         grid-template-columns: 1fr;
-        width: 65%;
+        width: 75%;
         padding: 0 20px;
         align-items: center;
         justify-items: center;
@@ -533,6 +533,10 @@ footer {
 
     .popular-items {
         width: 100%;
+    }
+
+    .popular-image {
+       width:90%;
     }
 
     .popular-text {
@@ -555,7 +559,7 @@ footer {
 
     .see-more {
         position: relative;
-        left: -22%;
+        left: -35%;
         white-space: nowrap;
     }
 
