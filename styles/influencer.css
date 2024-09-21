@@ -517,7 +517,7 @@ footer {
     }
 
     .popular-title {
-        margin: 10px 0px 20px -160px;
+        margin: 10px 0px 20px -80px;
         text-align: center;
         font-size: 1.25rem;
     }
@@ -533,10 +533,6 @@ footer {
 
     .popular-items {
         width: 100%;
-    }
-
-    .popular-image {
-        width: 89%;
     }
 
     .popular-text {
@@ -559,7 +555,7 @@ footer {
 
     .see-more {
         position: relative;
-        left: -43%;
+        left: -22%;
         white-space: nowrap;
     }
 
@@ -581,7 +577,7 @@ footer {
         width: 71%;
         text-align: center;
         position: relative;
-        left: 70px;
+        left: 80px;
     } 
 
 
@@ -634,13 +630,40 @@ footer {
     }
 }
 
+@media screen and (min-width:431px) {
+    .see-more {
+        position: relative;
+        left: -24%;
+        white-space: nowrap;
+    }
+
+}
+
+@media screen and (min-width:445px) {
+    .see-more {
+        position: relative;
+        left: -26%;
+        white-space: nowrap;
+    }
+
+}
+
+@media screen and (min-width:460px) {
+    .see-more {
+        position: relative;
+        left: -28%;
+        white-space: nowrap;
+    }
+
+}
+
 @media screen and (min-width:443px) {
     .featured-description {
         font-size: 0.75rem;
         width: 69%;
         text-align: center;
         position: relative;
-        left: 70px;
+        left: 80px;
     } 
 }
 
@@ -650,7 +673,7 @@ footer {
         width: 68%;
         text-align: center;
         position: relative;
-        left: 70px;
+        left: 80px;
     } 
 }
 
@@ -660,7 +683,7 @@ footer {
         width: 67%;
         text-align: center;
         position: relative;
-        left: 70px;
+        left: 80px;
     } 
 }
 
@@ -670,7 +693,7 @@ footer {
         width: 66%;
         text-align: center;
         position: relative;
-        left: 70px;
+        left: 80px;
     } 
 }
 
@@ -680,7 +703,7 @@ footer {
         width: 65%;
         text-align: center;
         position: relative;
-        left: 70px;
+        left: 80px;
     } 
 }
 
@@ -690,7 +713,7 @@ footer {
         width: 65%;
         text-align: center;
         position: relative;
-        left: 70px;
+        left: 80px;
     } 
 }
 
@@ -700,7 +723,7 @@ footer {
         width: 64%;
         text-align: center;
         position: relative;
-        left: 70px;
+        left: 80px;
     } 
 }
 
@@ -724,17 +747,17 @@ footer {
         grid-column: 1 / -1; /*Make the title span across both columns*/
         text-align: center;
         position: relative;
-        left:-70px;
+        left:-20px;
     }
 
     .nav>ul {
         display: grid;
         gap: 10%;
-        width: 100%;
+        width: 120%;
         align-content: center;
         margin-top: 10%;
         position: relative;
-        left: 25%;
+        left: 52%;
     }
 
     .nav li {
@@ -778,7 +801,7 @@ footer {
         background-repeat: no-repeat;
         max-width: 60%;
         position: relative;
-        margin: -6% 27% 4% 5%;
+        margin: 5% 27% 4% 20%;
     }
 
     .banner-pic {
@@ -840,9 +863,9 @@ footer {
         margin-left: 50%;
     }
 
-    .logo img {
+    .logo a img {
         position: relative;
-         z-index: 2; /*Ensures hover takes effect if other elements are above  */
+        z-index: 2; /*Ensures hover takes effect if other elements are above  */
     }
 
     .popular {
@@ -851,24 +874,21 @@ footer {
     }
 
     .popular-title {
-        margin: 10px 150px 20px 5px;
+        margin: 10px 100px 20px 70px;
         text-align: center;
     }
 
     .popular-container {
         display: grid;
-        grid-template-columns:1fr;
-        width: 80%;
-        padding: 0 20px;
-        justify-items: left;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        padding: 0 10px;
+        align-items: left;
     }
+
 
     .popular-items {
         width: 100%;
-    }
-
-    .popular-image {
-        width: 91%;
     }
 
     .popular-text {
@@ -889,7 +909,7 @@ footer {
 
     .see-more {
         position: relative;
-        left: -22%;
+        left: -48%;
         white-space: nowrap;
     }
 
@@ -903,31 +923,33 @@ footer {
 
     .featured-title {
         font-size: 2rem;
-        width: 130%;
+        width: 100%;
         text-align: center;
+        margin-left: 30px;
     }
 
     .featured-description {
         font-size:1rem;
-        width: 95%;
+        width: 70%;
         text-align: center;
         position: relative;
-        left: 50px;
+        left: 90px;
     }
 
     .btn-join {
-        margin-left: 35%;
+        position: relative;
+        left: 180px;
     }
 
     .featured-img img {
-        width: 100%;
+        width: 120%;
         height: auto;
         margin-top: -10%;
-        margin-left: 10%;
+        margin-left: 30px;
     }
 
     .footer-content {
-        padding: 5% 30% 5% 15%;
+        padding: 5% 30% 5% 20%;
         text-align: center;
     }
 
@@ -952,11 +974,44 @@ footer {
 
 }
 
+@media screen and (min-width:754px) {
+    .featured-title {
+        font-size: 2rem;
+        width: 81%;
+        text-align: center;
+        margin-left: 60px;
+    } 
+}
+ 
+@media screen and (min-width:717px) {
+    .featured-description {
+        font-size:1rem;
+        width: 65%;
+        text-align: center;
+        position: relative;
+        left: 100px;
+    }
+}
+
+@media screen and (min-width:753px) {
+    .featured-description {
+        font-size:1rem;
+        width: 60%;
+        text-align: center;
+        position: relative;
+        left: 110px;
+    }
+}
+
+ @media screen and (min-width:715px) { 
+    .popular-image {
+        width: 91%;
+    }
+    
+}
+
 /* Styles for tablets and small desktops */
 @media screen and (min-width:768px) and (max-width:991px) {
-    /* .popular-container .popular-items:nth-child(9){
-        margin-left: 60%;
-    } */
 
 }
 
