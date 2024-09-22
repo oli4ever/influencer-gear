@@ -688,17 +688,17 @@ footer {
         grid-column: 1 / -1; /*Make the title span across both columns*/
         text-align: center;
         position: relative;
-        left:-20px;
+        left:-30px;
     }
 
     .nav>ul {
         display: grid;
         gap: 10%;
-        width: 120%;
+        width: 100%;
         align-content: center;
         margin-top: 10%;
         position: relative;
-        left: 52%;
+        left: 44%;
     }
 
     .nav li {
@@ -742,7 +742,7 @@ footer {
         background-repeat: no-repeat;
         max-width: 60%;
         position: relative;
-        margin: 5% 27% 4% 20%;
+        margin: 5% 10% 4% 0%;
     }
 
     .banner-pic {
@@ -769,12 +769,12 @@ footer {
         font-weight: 600;
         text-align: center;
         position: relative;
-        left:-80px;
+        left:10px;
     }
 
     .btn-prebook {
         font-weight: 500;
-        margin-left: -25%;
+        margin-left: -30%;
     }
 
     hr {
@@ -815,29 +815,29 @@ footer {
     }
 
     .popular-title {
-        margin: 10px 100px 20px 70px;
+        margin: 10px 100px 30px 0px;
         text-align: center;
     }
 
     .popular-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        padding: 0 10px;
-        align-items: left;
+        grid-template-columns: 1fr;
+        width: 80%;
+        padding: 0 10px 0 30px;
+        align-items: center;
     }
 
+    
 
     .popular-items {
         width: 100%;
     }
 
-    @media screen and (min-width:715px) { 
-        .popular-image {
-            width: 91%;
-        }
-        
+    .popular-image {
+        width: 93%;
     }
+
+   
 
     .popular-text {
         font-weight: 700;
@@ -857,60 +857,64 @@ footer {
 
     .see-more {
         position: relative;
-        left: -48%;
+        left: -21%;
         white-space: nowrap;
     }
+
+    @media screen and (min-width:642px) { 
+        .popular-image {
+            width: 94%;
+        }
+        
+    }
+
+    @media screen and (min-width:710px) { 
+        .popular-title {
+            margin: 10px 40px 30px 10px;
+            text-align: center;
+        }
+
+        .popular-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+            padding: 0 10px;
+            align-items: left;
+        }
+
+        .popular-image {
+            width: 91%;
+        }
+
+        .see-more {
+            position: relative;
+            left: -48%;
+            white-space: nowrap;
+        }
+    }
+
 
     .featured {
         display: flex;
         flex-direction: column-reverse;
         position: relative;
         top: -20px;
-        left: -100px;
+        left: -120px;
     }
 
     .featured-title {
         font-size: 2rem;
-        width: 100%;
+        width: 130%;
         text-align: center;
         margin-left: 30px;
     }
 
-    @media screen and (min-width:754px) {
-        .featured-title {
-            font-size: 2rem;
-            width: 81%;
-            text-align: center;
-            margin-left: 60px;
-        } 
-    }
-
     .featured-description {
         font-size:1rem;
-        width: 70%;
+        width: 95%;
         text-align: center;
         position: relative;
-        left: 90px;
-    }
-
-    @media screen and (min-width:717px) {
-        .featured-description {
-            font-size:1rem;
-            width: 65%;
-            text-align: center;
-            position: relative;
-            left: 100px;
-        }
-    }
-    
-    @media screen and (min-width:753px) {
-        .featured-description {
-            font-size:1rem;
-            width: 60%;
-            text-align: center;
-            position: relative;
-            left: 110px;
-        }
+        left: 100px;
     }
 
     .btn-join {
@@ -923,6 +927,99 @@ footer {
         height: auto;
         margin-top: -10%;
         margin-left: 30px;
+    }
+
+    
+    @media screen and (min-width:591px) {
+        .featured-description {
+            width: 88%;
+            left: 120px;
+        }
+
+        .btn-join {
+            position: relative;
+            left: 210px;
+        }
+    }
+
+    @media screen and (min-width:619px) {
+        .featured-description {
+            width: 82%;
+            left: 130px;
+        }
+
+        .btn-join {
+            position: relative;
+            left: 210px;
+        }
+    }
+
+    @media screen and (min-width:635px) {
+        .featured-title {
+            font-size: 2rem;
+            width: 110%;
+            text-align: center;
+            margin-left: 60px;
+        } 
+    }
+
+    @media screen and (min-width:647px) {
+        .featured-description {
+            width: 76%;
+            left: 140px;
+        }
+
+        .btn-join {
+            position: relative;
+            left: 210px;
+        }
+    }
+
+    @media screen and (min-width:679px) {
+        .featured-description {
+            width: 71%;
+            left: 150px;
+        }
+
+        .btn-join {
+            position: relative;
+            left: 220px;
+        }
+    }
+    
+    @media screen and (min-width:707px) {
+        .featured-title {
+            font-size: 2rem;
+            width: 89%;
+            text-align: center;
+            margin-left: 100px;
+        } 
+    }
+
+    
+    
+    @media screen and (min-width:710px) {
+        .featured-description {
+            width: 66%;
+            left: 160px;
+        }
+
+        .btn-join {
+            position: relative;
+            left: 230px;
+        }
+    }
+
+    @media screen and (min-width:746px) {
+        .featured-description {
+            width: 61%;
+            left:170px;
+        }
+
+        .btn-join {
+            position: relative;
+            left: 240px;
+        }
     }
 
     .footer-content {
