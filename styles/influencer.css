@@ -20,7 +20,7 @@
 
 body {
     margin: 0 auto;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .container {
@@ -190,7 +190,7 @@ body {
 .popular-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    justify-items: center;
+    /* justify-items: center; */
     align-items: center;
     padding:0 150px;
     gap: 30px;
@@ -319,8 +319,8 @@ footer {
     width: 100%;
     margin-top: 120px;
     background: rgb(7, 2, 17);
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     color: rgb(255, 255, 255);
     padding: 20px 0;
     z-index: 1;
@@ -329,7 +329,7 @@ footer {
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 50px 510px;
+    padding: 50px 400px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -475,6 +475,16 @@ footer {
         margin-left: 80px;
     }
 
+    @media screen and (min-width:458px) {
+        .banner-description {
+            width: 75%;
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-align: center;
+            margin-left: 100px;
+        }
+    }
+
     .btn-prebook {
         font-size: 0.875rem;
         font-weight: 400;
@@ -584,7 +594,41 @@ footer {
         left: 80px;
     } 
 
-
+    @media screen and (min-width:443px) {
+        .featured-description {
+            width: 69%;   
+        } 
+    }
+    
+    @media screen and (min-width:453px) {
+        .featured-description {
+            width: 68%;  
+        } 
+    }
+    
+    @media screen and (min-width:458px) {
+        .featured-description {
+            width: 67%;
+        } 
+    }
+    
+    @media screen and (min-width:464px) {
+        .featured-description {
+            width: 66%;
+        } 
+    }
+    
+    @media screen and (min-width:469px) {
+        .featured-description {
+            width: 65%;
+        } 
+    }
+    
+    @media screen and (min-width:475px) {
+        .featured-description {
+            width: 64%;
+        } 
+    }
 
     .btn-join {
         margin-left: 120px;
@@ -622,113 +666,6 @@ footer {
         font-size: 12px;
     }
 
-}
-
-@media screen and (min-width:458px) {
-    .banner-description {
-        width: 75%;
-        font-size: 0.75rem;
-        font-weight: 500;
-        text-align: center;
-        margin-left: 100px;
-    }
-}
-
-@media screen and (min-width:431px) {
-    .see-more {
-        position: relative;
-        left: -24%;
-        white-space: nowrap;
-    }
-
-}
-
-@media screen and (min-width:445px) {
-    .see-more {
-        position: relative;
-        left: -26%;
-        white-space: nowrap;
-    }
-
-}
-
-@media screen and (min-width:460px) {
-    .see-more {
-        position: relative;
-        left: -28%;
-        white-space: nowrap;
-    }
-
-}
-
-@media screen and (min-width:443px) {
-    .featured-description {
-        font-size: 0.75rem;
-        width: 69%;
-        text-align: center;
-        position: relative;
-        left: 80px;
-    } 
-}
-
-@media screen and (min-width:453px) {
-    .featured-description {
-        font-size: 0.75rem;
-        width: 68%;
-        text-align: center;
-        position: relative;
-        left: 80px;
-    } 
-}
-
-@media screen and (min-width:458px) {
-    .featured-description {
-        font-size: 0.75rem;
-        width: 67%;
-        text-align: center;
-        position: relative;
-        left: 80px;
-    } 
-}
-
-@media screen and (min-width:464px) {
-    .featured-description {
-        font-size: 0.75rem;
-        width: 66%;
-        text-align: center;
-        position: relative;
-        left: 80px;
-    } 
-}
-
-@media screen and (min-width:469px) {
-    .featured-description {
-        font-size: 0.75rem;
-        width: 65%;
-        text-align: center;
-        position: relative;
-        left: 80px;
-    } 
-}
-
-@media screen and (min-width:469px) {
-    .featured-description {
-        font-size: 0.75rem;
-        width: 65%;
-        text-align: center;
-        position: relative;
-        left: 80px;
-    } 
-}
-
-@media screen and (min-width:475px) {
-    .featured-description {
-        font-size: 0.75rem;
-        width: 64%;
-        text-align: center;
-        position: relative;
-        left: 80px;
-    } 
 }
 
 /* Styles for modern smartphones */
@@ -895,6 +832,13 @@ footer {
         width: 100%;
     }
 
+    @media screen and (min-width:715px) { 
+        .popular-image {
+            width: 91%;
+        }
+        
+    }
+
     .popular-text {
         font-weight: 700;
     }
@@ -932,12 +876,41 @@ footer {
         margin-left: 30px;
     }
 
+    @media screen and (min-width:754px) {
+        .featured-title {
+            font-size: 2rem;
+            width: 81%;
+            text-align: center;
+            margin-left: 60px;
+        } 
+    }
+
     .featured-description {
         font-size:1rem;
         width: 70%;
         text-align: center;
         position: relative;
         left: 90px;
+    }
+
+    @media screen and (min-width:717px) {
+        .featured-description {
+            font-size:1rem;
+            width: 65%;
+            text-align: center;
+            position: relative;
+            left: 100px;
+        }
+    }
+    
+    @media screen and (min-width:753px) {
+        .featured-description {
+            font-size:1rem;
+            width: 60%;
+            text-align: center;
+            position: relative;
+            left: 110px;
+        }
     }
 
     .btn-join {
@@ -978,46 +951,10 @@ footer {
 
 }
 
-@media screen and (min-width:754px) {
-    .featured-title {
-        font-size: 2rem;
-        width: 81%;
-        text-align: center;
-        margin-left: 60px;
-    } 
-}
- 
-@media screen and (min-width:717px) {
-    .featured-description {
-        font-size:1rem;
-        width: 65%;
-        text-align: center;
-        position: relative;
-        left: 100px;
-    }
-}
-
-@media screen and (min-width:753px) {
-    .featured-description {
-        font-size:1rem;
-        width: 60%;
-        text-align: center;
-        position: relative;
-        left: 110px;
-    }
-}
-
- @media screen and (min-width:715px) { 
-    .popular-image {
-        width: 91%;
-    }
-    
-}
-
 /* Styles for tablets and small desktops */
-@media screen and (min-width:768px) and (max-width:991px) {
+/* @media screen and (min-width:768px) and (max-width:991px) {
 
-}
+} */
 
 /* Styles for desktops,laptops and large screens */
-@media (min-width: 992px) {}
+/* @media (min-width: 992px) {} */
