@@ -14,13 +14,12 @@
     --font-manrope: "Manrope", sans-serif;
 }
 
-*, ::after, ::before {
+* {
     box-sizing: border-box;
 }
 
 body {
     margin: 0 auto;
-    /* box-sizing: border-box; */
 }
 
 .container {
@@ -327,7 +326,7 @@ footer {
 }
 
 .footer-content {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 50px 400px;
     text-align: center;
@@ -1176,17 +1175,14 @@ footer {
         width: 60px;
         height: auto;
         padding-right: 10px;
+        position: relative;
+        z-index: 2; /*Ensures hover takes effect if other elements are above  */
     }
 
     .logo a:nth-child(5),
     .logo a:nth-child(6),
     .logo a:nth-child(7) {
         margin-left: 50%;
-    }
-
-    .logo a img {
-        position: relative;
-        z-index: 2; /*Ensures hover takes effect if other elements are above  */
     }
 
     .popular {
@@ -1297,7 +1293,129 @@ footer {
     }
 }
 
-/* Styles for desktops,laptops and large screens */
+/* Styles for desktops & laptops */
 @media screen and (min-width:992px) and (max-width:1199px) {
+    .nav {
+        justify-content: flex-start; /* Align items to the left */
+    }
+
+    .nav > ul {
+        margin-left: 230px; /* Adjust this value to control the space */
+    }
+
+    .banner {
+        margin-top: -30px;
+    }
+    
+    .banner-content {
+        max-width: 500px;
+        margin-top: 20px;
+    }
+
+    .banner-title {
+        font-size: 2.375rem;
+    }
+
+    .banner-description {
+        width: 70%;
+        text-align: left;
+    }
+
+    .btn-prebook {
+        margin-top: 2%;
+    }
+
+    .background-image {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        max-width: 90%;
+        position: relative;
+        margin: 15% 7% 4% 0%;
+    }
+
+    .banner-pic {
+        position: relative;
+        max-width: 92%;
+        margin: 7% 0 0 1%;
+    }
+
+    .logo-container {
+        margin-top: 10px;
+    }
+
+    .line1 {
+        width: 91%;
+        margin-left: 10px;
+    }
+    
+    .logo {
+        margin: 36px 62px 35px 20px;
+    }
+    
+    .logo a img {
+        padding-right: 40px;
+    }
+
+    .line2 {
+        width: 91%;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    .popular-title {
+        margin: 10px 70px 30px 5px;
+        text-align: center;
+    }
+
+    .popular-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 90%;
+            padding: 0 20px 0 70px;
+            align-items: center;
+    } 
+
+    .popular-items {
+        width: 100%;
+    }
+
+    .popular-image {
+        width: 90%;
+    }
+
+    .see-more {
+        margin-left: 79%;
+    }
+
+    .featured {
+        margin: 180px 20px 0px;
+        gap: 10px;
+    }
+
+    .featured-img img {
+        width: 80%;
+        height: auto;
+        margin-left: 30px;
+    }
+
+    .featured-title {
+        font-size: 1.875rem;
+        width: 100%;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    .featured-description {
+        font-size:1rem;
+        width: 95%;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .btn-join {
+        margin-left: 10px;
+    }
+
+   
 
 }
