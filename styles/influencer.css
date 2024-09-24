@@ -82,7 +82,7 @@ body {
     margin-top: 150px;
 }
 
-.line1 {
+.line1, .line2 {
     width: 1110px;
     margin-left: 50px;
     background-color: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.378%, rgba(192, 204, 218, 0.1) 100%);
@@ -102,14 +102,6 @@ body {
 .logo a:hover img {
     cursor: pointer !important;
 }
-
-.line2 {
-    width: 1110px;
-    margin-top: 40px;
-    margin-left: 50px;
-    background-color: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.378%, rgba(192, 204, 218, 0.1) 100%);
-}
-
 
 /* banner styles */
 .banner {
@@ -663,6 +655,44 @@ footer {
         width: 22px;
         height: 22px;
         font-size: 12px;
+    }
+
+    @media screen and (min-width:380px) {
+        .nav {
+            margin-left: 50px;
+        } 
+
+        .background-image {
+            margin: -10px 20px 20px -30px;
+        }
+
+        .banner-content {
+            margin: -250px 10px 20px -150px;
+        }
+
+        .banner-description {
+            margin-left: 90px;
+        }
+
+        .logo {
+            margin-left: -10px;
+        }
+
+        .popular-container {
+            width: 80%;
+        }
+
+        .see-more {
+            left: -28%;
+        }
+
+        .featured {
+            margin: 150px 110px 0px -10px;
+        }
+
+        .btn-join {
+            margin-left: 130px;
+        }
     }
 
 }
@@ -1294,17 +1324,19 @@ footer {
 }
 
 /* Styles for desktops & laptops */
-@media screen and (min-width:992px) and (max-width:1199px) {
+@media screen and (min-width:992px) and (max-width:1343px) {
     .nav {
         justify-content: flex-start; /* Align items to the left */
     }
 
     .nav > ul {
-        margin-left: 230px; /* Adjust this value to control the space */
+        margin-left: 250px; /* Adjust this value to control the space */
+        white-space: nowrap;
     }
 
     .banner {
-        margin-top: -30px;
+        margin-top: -100px;
+        justify-content: flex-start;
     }
     
     .banner-content {
@@ -1330,7 +1362,7 @@ footer {
         background-repeat: no-repeat;
         max-width: 90%;
         position: relative;
-        margin: 15% 7% 4% 0%;
+        margin: 15% 4% 4% 1%;
     }
 
     .banner-pic {
@@ -1343,23 +1375,32 @@ footer {
         margin-top: 10px;
     }
 
-    .line1 {
-        width: 91%;
-        margin-left: 10px;
+    .line1, .line2 {
+        width: 88%;
+        margin-left: 50px;
     }
     
     .logo {
-        margin: 36px 62px 35px 20px;
+        margin: 36px 62px 35px 50px;
     }
     
     .logo a img {
-        padding-right: 40px;
+        padding-right: 30px;
+        width: 90%;
     }
 
-    .line2 {
-        width: 91%;
-        margin-top: 40px;
-        margin-left: 10px;
+    @media screen and (min-width:1070px){
+        .nav > ul {
+            margin-left: 270px;
+            white-space: nowrap;
+        }
+    }
+
+    @media screen and (min-width:1120px){
+        .nav > ul {
+            margin-left: 280px;
+            white-space: nowrap;
+        }
     }
 
     .popular-title {
@@ -1380,7 +1421,7 @@ footer {
     }
 
     .popular-image {
-        width: 90%;
+        width: 89%;
     }
 
     .see-more {
