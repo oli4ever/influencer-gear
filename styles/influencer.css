@@ -955,7 +955,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
         width: 80%;
-        padding: 0 10px 0 30px;
+        padding: 0 20px;
         align-items: center;
     }
 
@@ -985,7 +985,7 @@ footer {
 
     .see-more {
         position: relative;
-        left: -21%;
+        left: -22%;
         white-space: nowrap;
     }
 
@@ -994,7 +994,7 @@ footer {
         flex-direction: column-reverse;
         position: relative;
         top: -20px;
-        left: -120px;
+        left: -140px;
     }
 
     .featured-title {
@@ -1102,11 +1102,6 @@ footer {
             left: -9%;
         }
 
-        .featured-description {
-            width: 82%;
-            left: 130px;
-        }
-
         .btn-join {
             position: relative;
             left: 210px;
@@ -1121,19 +1116,10 @@ footer {
             margin-left: 60px;
         } 
 
-        
-    }
-
-    @media screen and (min-width:647px) {
         .featured-description {
-            width: 76%;
-            left: 140px;
+            width: 90%;
         }
-
-        .btn-join {
-            position: relative;
-            left: 210px;
-        }
+   
     }
 
     @media screen and (min-width:679px) {
@@ -1143,17 +1129,20 @@ footer {
         }
 
         .featured-description {
-            width: 71%;
-            left: 150px;
+            width: 80%;
         }
 
         .btn-join {
             position: relative;
-            left: 220px;
+            left: 200px;
         }
     }
     
     @media screen and (min-width:707px) {
+        .popular-image {
+            width: 94%;
+        }
+
         .featured-title {
             font-size: 2rem;
             width: 92%;
@@ -1190,10 +1179,6 @@ footer {
             align-items: left;
         }
 
-        .popular-image {
-            width: 91%;
-        }
-
         .see-more {
             position: relative;
             left: -48%;
@@ -1216,19 +1201,7 @@ footer {
         }
     
     }
-
-    @media screen and (min-width:746px) {
-        .featured-description {
-            width: 61%;
-            left:170px;
-        }
-
-        .btn-join {
-            position: relative;
-            left: 240px;
-        }
-    }
-
+    
 }
 
 /* Styles for tablets and small desktops */
