@@ -643,7 +643,19 @@ footer {
         }
 
         .popular-title {
-            margin: 10px 0px 20px -80px;
+            margin: 10px 10px 20px -80px;
+        }
+
+        .popular-container {
+            width: 78%; 
+        }
+
+        .popular-image {
+            width: 90%;
+        }
+
+        .see-more {
+            left: -29%;
         }
 
         .featured {
@@ -651,7 +663,7 @@ footer {
         }
 
         .featured-img img {
-            margin-left: 20px;
+            margin-left: 10px;
         }
 
         .featured-title {
