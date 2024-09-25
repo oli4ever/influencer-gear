@@ -382,7 +382,7 @@ footer {
         align-items: center;
         justify-content: center;
         margin-top: 30px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .nav-title {
@@ -466,16 +466,6 @@ footer {
         margin-left: 80px;
     }
 
-    @media screen and (min-width:458px) {
-        .banner-description {
-            width: 75%;
-            font-size: 0.75rem;
-            font-weight: 500;
-            text-align: center;
-            margin-left: 100px;
-        }
-    }
-
     .btn-prebook {
         font-size: 0.875rem;
         font-weight: 400;
@@ -526,8 +516,8 @@ footer {
     .popular-container {
         display: grid;
         grid-template-columns: 1fr;
-        width: 75%;
-        padding: 0 20px;
+        width: 80%;
+        padding: 0 25px;
         align-items: center;
         justify-items: center;
     }
@@ -560,7 +550,7 @@ footer {
 
     .see-more {
         position: relative;
-        left: -35%;
+        left: -32%;
         white-space: nowrap;
     }
 
@@ -583,46 +573,10 @@ footer {
         text-align: center;
         position: relative;
         left: 80px;
-    } 
-
-    @media screen and (min-width:443px) {
-        .featured-description {
-            width: 69%;   
-        } 
     }
     
-    @media screen and (min-width:453px) {
-        .featured-description {
-            width: 68%;  
-        } 
-    }
-    
-    @media screen and (min-width:458px) {
-        .featured-description {
-            width: 67%;
-        } 
-    }
-    
-    @media screen and (min-width:464px) {
-        .featured-description {
-            width: 66%;
-        } 
-    }
-    
-    @media screen and (min-width:469px) {
-        .featured-description {
-            width: 65%;
-        } 
-    }
-    
-    @media screen and (min-width:475px) {
-        .featured-description {
-            width: 64%;
-        } 
-    }
-
     .btn-join {
-        margin-left: 120px;
+        margin-left: 130px;
         padding:10px 20px;
     }
 
@@ -630,11 +584,11 @@ footer {
         width: 80%;
         height: auto;
         margin-top: -50px;
-        margin-left: 50px;
+        margin-left: 60px;
     }
 
     .footer-content {
-        padding: 5% 25% 5% 20%;
+        padding: 5% 25% 5% 5%;
         text-align: center; 
     }
 
@@ -657,17 +611,23 @@ footer {
         font-size: 12px;
     }
 
-    @media screen and (min-width:380px) {
+    @media screen and (min-width:375px) {
         .nav {
-            margin-left: 50px;
+            margin-left: 30px;
         } 
 
         .background-image {
             margin: -10px 20px 20px -30px;
         }
 
+        .banner-pic {
+            position: relative;
+            width: 80%;
+            margin: 47px 10px 0 2px;
+        }
+
         .banner-content {
-            margin: -250px 10px 20px -150px;
+            margin: -250px 50px 20px -120px;
         }
 
         .banner-description {
@@ -678,20 +638,155 @@ footer {
             margin-left: -10px;
         }
 
-        .popular-container {
-            width: 80%;
+        .popular {
+            margin-left: 10px;
+        }
+
+        .popular-title {
+            margin: 10px 0px 20px -80px;
         }
 
         .see-more {
-            left: -28%;
+            left: -30%;
         }
 
         .featured {
-            margin: 150px 110px 0px -10px;
+            margin: 150px 20px 0px -10px;
+        }
+
+        .featured-img img {
+            margin-left: 20px;
+        }
+
+        .featured-title {
+            width: 70%;
+            margin-left: 40px;
+        }
+    
+        .featured-description {
+            width: 55%;
+            left: 85px;
+        }
+
+    }
+
+    @media screen and (min-width:410px) {
+        .footer-content {
+            padding: 5% 25% 5% 15%;
+            text-align: center; 
+        }
+
+    }
+
+    @media screen and (min-width:443px) {
+        .featured-description {
+            width: 53%; 
+            left: 80px; 
+        } 
+
+    }
+
+    @media screen and (min-width:450px) {
+
+        .nav {
+            margin-left: 60px;
+        } 
+
+        .background-image {
+            margin: -10px 20px 20px 10px;
+        }
+
+        .banner-pic {
+            position: relative;
+            width: 80%;
+            margin: 45px 10px 0 2px;
+        }
+
+        .banner-content {
+            margin: -230px 10px 20px -120px;
+        }
+
+        .banner-description {
+            width: 77%;
+            margin-left: 100px;
+        }
+
+        .logo {
+            margin-left: -10px;
+        }
+
+        .popular {
+            margin-left: 20px;
+        }
+
+        .popular-container {
+            width: 95%;
+            padding: 0 25px;
+        }
+
+        .popular-image {
+            width: 92%;
+        }
+
+        .popular-title {
+            font-size: 1.5rem;
+            margin: 10px 0px 20px -50px;
+        }
+
+        .see-more {
+            left: -14%;
+        }
+
+        .featured {
+            margin: 150px 20px 0px 40px;
+        }
+
+        .featured-description {
+            width: 60%;
+            left:70px;
         }
 
         .btn-join {
-            margin-left: 130px;
+            margin-left: 120px;
+        }
+
+        .featured-img img {
+            width: 90%;
+            margin-left:10px;
+        }
+
+        .footer-content {
+            padding: 5% 25%;
+        }
+
+
+    }
+    
+    @media screen and (min-width:458px) {
+        .banner-description {
+            width: 75%;
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-align: center;
+            margin-left: 105px;
+        }
+    }
+    
+    
+    @media screen and (min-width:469px) {
+        .featured-title {
+            width: 69%;
+        }
+    }
+
+    @media screen and (min-width:476px) {
+        .featured-title {
+            width: 68%;
+        }
+
+        .featured-description {
+            width: 59%;
+            left: 70px;
         }
     }
 
