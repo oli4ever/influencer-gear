@@ -850,7 +850,7 @@ footer {
     .nav li:nth-child(6) {
         grid-column: 2; /* Place these items in the second column */
         position: relative;
-        top: -79.22px;
+        top: -78px;
     }
 
     .search {
@@ -1050,13 +1050,12 @@ footer {
 
     @media screen and (min-width:591px) {
         .featured-description {
-            width: 88%;
-            left: 120px;
+            width: 92%;
+            left: 110px;
         }
 
         .btn-join {
-            position: relative;
-            left: 210px;
+            left: 190px;
         }
     }
 
