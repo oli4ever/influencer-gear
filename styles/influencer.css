@@ -877,7 +877,7 @@ footer {
 
     .banner-content {
         position: relative;
-        top: -250px;
+        top: -220px;
         text-align: center;
     }
 
@@ -912,7 +912,7 @@ footer {
         align-items: center;
         gap: 15px;
         width: 100%;
-        margin-top: -70%;
+        margin-top: -60%;
         margin-left: -10%;
     }
 
@@ -951,8 +951,6 @@ footer {
         align-items: center;
     }
 
-    
-
     .popular-items {
         width: 100%;
     }
@@ -960,8 +958,6 @@ footer {
     .popular-image {
         width: 93%;
     }
-
-   
 
     .popular-text {
         font-weight: 700;
@@ -984,39 +980,6 @@ footer {
         left: -21%;
         white-space: nowrap;
     }
-
-    @media screen and (min-width:642px) { 
-        .popular-image {
-            width: 94%;
-        }
-        
-    }
-
-    @media screen and (min-width:710px) { 
-        .popular-title {
-            margin: 10px 40px 30px 10px;
-            text-align: center;
-        }
-
-        .popular-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            width: 100%;
-            padding: 0 10px;
-            align-items: left;
-        }
-
-        .popular-image {
-            width: 91%;
-        }
-
-        .see-more {
-            position: relative;
-            left: -48%;
-            white-space: nowrap;
-        }
-    }
-
 
     .featured {
         display: flex;
@@ -1053,99 +1016,6 @@ footer {
         margin-left: 80px;
     }
 
-    
-    @media screen and (min-width:591px) {
-        .featured-description {
-            width: 88%;
-            left: 120px;
-        }
-
-        .btn-join {
-            position: relative;
-            left: 210px;
-        }
-    }
-
-    @media screen and (min-width:619px) {
-        .featured-description {
-            width: 82%;
-            left: 130px;
-        }
-
-        .btn-join {
-            position: relative;
-            left: 210px;
-        }
-    }
-
-    @media screen and (min-width:635px) {
-        .featured-title {
-            font-size: 2rem;
-            width: 110%;
-            text-align: center;
-            margin-left: 60px;
-        } 
-    }
-
-    @media screen and (min-width:647px) {
-        .featured-description {
-            width: 76%;
-            left: 140px;
-        }
-
-        .btn-join {
-            position: relative;
-            left: 210px;
-        }
-    }
-
-    @media screen and (min-width:679px) {
-        .featured-description {
-            width: 71%;
-            left: 150px;
-        }
-
-        .btn-join {
-            position: relative;
-            left: 220px;
-        }
-    }
-    
-    @media screen and (min-width:707px) {
-        .featured-title {
-            font-size: 2rem;
-            width: 92%;
-            text-align: center;
-            margin-left: 100px;
-        } 
-    }
-
-    
-    
-    @media screen and (min-width:710px) {
-        .featured-description {
-            width: 69%;
-            left: 160px;
-        }
-
-        .btn-join {
-            position: relative;
-            left: 230px;
-        }
-    }
-
-    @media screen and (min-width:746px) {
-        .featured-description {
-            width: 61%;
-            left:170px;
-        }
-
-        .btn-join {
-            position: relative;
-            left: 240px;
-        }
-    }
-
     .footer-content {
         padding: 5% 30% 5% 20%;
         text-align: center;
@@ -1168,6 +1038,188 @@ footer {
         width: 22px;
         height: 22px;
         font-size: 12px;
+    }
+
+    @media screen and (min-width:591px) {
+        .featured-description {
+            width: 88%;
+            left: 120px;
+        }
+
+        .btn-join {
+            position: relative;
+            left: 210px;
+        }
+    }
+
+    @media screen and (min-width:600px) { 
+        .banner-content {
+            left: 50px;
+        }
+
+        .logo {
+            margin-left: -3%;
+        }
+
+        .popular-title {
+            margin: 10px 20px 30px 10px;
+        }
+
+        .popular-container {
+            width: 90%;
+            padding: 0 10px 0 80px;
+        }
+
+        .see-more {
+            left: -10%;
+        }
+
+        .featured {
+            left: -100px;
+        }
+
+        .btn-join {
+            left: 180px;
+        }
+
+        .footer-content {
+            padding: 5% 20%;
+            text-align: center;
+        } 
+    
+    }
+
+    @media screen and (min-width:619px) {
+
+        .see-more {
+            left: -9%;
+        }
+
+        .featured-description {
+            width: 82%;
+            left: 130px;
+        }
+
+        .btn-join {
+            position: relative;
+            left: 210px;
+        }
+    }
+
+    @media screen and (min-width:635px) {
+        .featured-title {
+            font-size: 2rem;
+            width: 110%;
+            text-align: center;
+            margin-left: 60px;
+        } 
+
+        
+    }
+
+    @media screen and (min-width:647px) {
+        .featured-description {
+            width: 76%;
+            left: 140px;
+        }
+
+        .btn-join {
+            position: relative;
+            left: 210px;
+        }
+    }
+
+    @media screen and (min-width:679px) {
+
+        .see-more {
+            left: -9%;
+        }
+
+        .featured-description {
+            width: 71%;
+            left: 150px;
+        }
+
+        .btn-join {
+            position: relative;
+            left: 220px;
+        }
+    }
+    
+    @media screen and (min-width:707px) {
+        .featured-title {
+            font-size: 2rem;
+            width: 92%;
+            text-align: center;
+            margin-left: 100px;
+        } 
+    }
+
+
+    @media screen and (min-width:710px) { 
+
+        .nav {
+            margin-left: 30px;
+        }
+
+        .nav>ul {
+            left: 35%;
+        }
+
+        .background-image {
+            margin: 5% 10% 4% 2%;
+        }
+
+        .popular-title {
+            margin: 10px 40px 30px 10px;
+            text-align: center;
+        }
+
+        .popular-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+            padding: 0 10px;
+            align-items: left;
+        }
+
+        .popular-image {
+            width: 91%;
+        }
+
+        .see-more {
+            position: relative;
+            left: -48%;
+            white-space: nowrap;
+        }
+
+        .featured-description {
+            width: 69%;
+            left: 160px;
+        }
+
+        .btn-join {
+            position: relative;
+            left: 230px;
+        }
+
+        .footer-content {
+            padding: 5% 30%;
+            text-align: center;
+        }
+    
+    }
+
+    @media screen and (min-width:746px) {
+        .featured-description {
+            width: 61%;
+            left:170px;
+        }
+
+        .btn-join {
+            position: relative;
+            left: 240px;
+        }
     }
 
 }
@@ -1258,6 +1310,7 @@ footer {
     .banner-content {
         position: relative;
         top: -250px;
+        left:40px;
         text-align: center;
     }
 
@@ -1273,12 +1326,12 @@ footer {
         font-weight: 600;
         text-align: center;
         position: relative;
-        left:10px;
+        left:20px;
     }
 
     .btn-prebook {
         font-weight: 500;
-        margin-left: -30%;
+        margin-left: -20%;
     }
 
     hr {
@@ -1293,7 +1346,7 @@ footer {
         gap: 15px;
         width: 100%;
         margin-top: -70%;
-        margin-left: -10%;
+        margin-left: 1%;
     }
 
      .logo a img {
@@ -1363,7 +1416,7 @@ footer {
         flex-direction: column-reverse;
         position: relative;
         top: -20px;
-        left: -50px;
+        left: -10px;
     }
 
     .featured-title {
@@ -1394,7 +1447,7 @@ footer {
     }
  
     .footer-content {
-        padding: 5% 30% 5% 20%;
+        padding: 5% 20%;
         text-align: center;
     }
 
@@ -1551,7 +1604,5 @@ footer {
     .btn-join {
         margin-left: 10px;
     }
-
-   
 
 }
