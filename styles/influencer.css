@@ -415,7 +415,7 @@ footer {
     .nav li:nth-child(5),
     .nav li:nth-child(6) {
         grid-column: 2; /* Place these items in the second column */
-        margin-top: -80px;
+        margin-top: -78px;
     }
 
     .search {
@@ -470,7 +470,7 @@ footer {
         font-size: 0.875rem;
         font-weight: 400;
         margin-top: 10px;
-        margin-left: 130px;
+        margin-left: 120px;
         padding: 10px 20px;
     }
 
@@ -508,7 +508,7 @@ footer {
     }
 
     .popular-title {
-        margin: 10px 0px 20px -100px;
+        margin: 10px 30px 20px -100px;
         text-align: center;
         font-size: 1.25rem;
     }
@@ -516,8 +516,8 @@ footer {
     .popular-container {
         display: grid;
         grid-template-columns: 1fr;
-        width: 80%;
-        padding: 0 25px;
+        width: 72%;
+        padding: 0 10px;
         align-items: center;
         justify-items: center;
     }
@@ -527,7 +527,7 @@ footer {
     }
 
     .popular-image {
-       width:90%;
+       width:89%;
     }
 
     .popular-text {
@@ -550,7 +550,7 @@ footer {
 
     .see-more {
         position: relative;
-        left: -32%;
+        left: -36%;
         white-space: nowrap;
     }
 
@@ -588,7 +588,7 @@ footer {
     }
 
     .footer-content {
-        padding: 5% 25% 5% 5%;
+        padding: 5% 27% 5% 1%;
         text-align: center; 
     }
 
@@ -644,10 +644,6 @@ footer {
 
         .popular-title {
             margin: 10px 0px 20px -80px;
-        }
-
-        .see-more {
-            left: -30%;
         }
 
         .featured {
