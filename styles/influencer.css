@@ -516,7 +516,7 @@ footer {
     .popular-container {
         display: grid;
         grid-template-columns: 1fr;
-        width: 72%;
+        width: 70%;
         padding: 0 10px;
         align-items: center;
         justify-items: center;
@@ -550,14 +550,14 @@ footer {
 
     .see-more {
         position: relative;
-        left: -36%;
+        left: -38%;
         white-space: nowrap;
     }
 
     .featured {
         display: flex;
         flex-direction: column-reverse;
-        margin: 150px 120px 0px -30px;
+        margin: 150px 120px 0px -33px;
     }
 
     .featured-title {
@@ -584,7 +584,7 @@ footer {
         width: 80%;
         height: auto;
         margin-top: -50px;
-        margin-left: 60px;
+        margin-left: 50px;
     }
 
     .footer-content {
@@ -647,7 +647,7 @@ footer {
         }
 
         .popular-container {
-            width: 78%; 
+            width: 76%; 
         }
 
         .popular-image {
@@ -655,7 +655,7 @@ footer {
         }
 
         .see-more {
-            left: -29%;
+            left: -31%;
         }
 
         .featured {
