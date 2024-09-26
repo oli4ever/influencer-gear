@@ -1091,6 +1091,16 @@ footer {
     }
 
     @media screen and (min-width:591px) {
+        .popular-title {
+            margin: 10px 50px 30px 50px;
+            text-align: center;
+        }
+
+        .popular-container {
+            width: 90%;
+            padding: 0 10px 0 80px;
+        }
+        
         .featured-description {
             width: 92%;
             left: 110px;
@@ -1098,6 +1108,10 @@ footer {
 
         .btn-join {
             left: 190px;
+        }
+
+        .footer-content {
+            padding: 5% 20% 5% 15%;
         }
     }
 
@@ -1112,11 +1126,6 @@ footer {
 
         .popular-title {
             margin: 10px 20px 30px 10px;
-        }
-
-        .popular-container {
-            width: 90%;
-            padding: 0 10px 0 80px;
         }
 
         .see-more {
