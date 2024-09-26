@@ -1443,7 +1443,7 @@ footer {
 
     .see-more {
         position: relative;
-        left: -46%;
+        left: -47%;
         white-space: nowrap;
     }
 
@@ -1587,14 +1587,12 @@ footer {
     @media screen and (min-width:1070px){
         .nav > ul {
             margin-left: 270px;
-            white-space: nowrap;
         }
     }
 
     @media screen and (min-width:1120px){
         .nav > ul {
             margin-left: 280px;
-            white-space: nowrap;
         }
     }
 
