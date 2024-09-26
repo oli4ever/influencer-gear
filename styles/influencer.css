@@ -1091,31 +1091,6 @@ footer {
     }
 
     @media screen and (min-width:591px) {
-        .popular-title {
-            margin: 10px 50px 30px 50px;
-            text-align: center;
-        }
-
-        .popular-container {
-            width: 90%;
-            padding: 0 10px 0 80px;
-        }
-        
-        .featured-description {
-            width: 92%;
-            left: 110px;
-        }
-
-        .btn-join {
-            left: 190px;
-        }
-
-        .footer-content {
-            padding: 5% 20% 5% 15%;
-        }
-    }
-
-    @media screen and (min-width:600px) { 
         .banner-content {
             left: 50px;
         }
@@ -1125,11 +1100,21 @@ footer {
         }
 
         .popular-title {
-            margin: 10px 20px 30px 10px;
+            margin: 10px 50px 30px 50px;
+        }
+
+        .popular-container {
+            width: 90%;
+            padding: 0 10px 0 80px;
         }
 
         .see-more {
             left: -10%;
+        }
+        
+        .featured-description {
+            width: 92%;
+            left: 110px;
         }
 
         .featured {
@@ -1141,10 +1126,8 @@ footer {
         }
 
         .footer-content {
-            padding: 5% 20%;
-            text-align: center;
-        } 
-    
+            padding: 5% 20% 5% 15%;
+        }
     }
 
     @media screen and (min-width:619px) {
