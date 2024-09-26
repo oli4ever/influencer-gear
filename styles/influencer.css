@@ -1100,7 +1100,7 @@ footer {
         }
 
         .popular-title {
-            margin: 10px 50px 30px 50px;
+            margin: 10px 50px 30px;
         }
 
         .popular-container {
@@ -1144,13 +1144,8 @@ footer {
     @media screen and (min-width:635px) {
 
         .featured-description {
-            width: 84%;
+            width: 90%;
         }
-
-        .btn-join {
-            left: 190px;
-        }
-   
     }
 
     @media screen and (min-width:679px) {
@@ -1240,6 +1235,10 @@ footer {
     
     @media screen and (min-width:741px) {
 
+        .featured-title {
+            width: 100%;
+        }
+        
         .featured-description {
             width: 68%;
         }
