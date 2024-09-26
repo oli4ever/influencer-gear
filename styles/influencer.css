@@ -1043,7 +1043,7 @@ footer {
         font-size: 2rem;
         width: 130%;
         text-align: center;
-        margin-left: 60px;
+        margin-left: 40px;
     }
 
     .featured-description {
@@ -1067,7 +1067,7 @@ footer {
     }
 
     .footer-content {
-        padding: 5% 30% 5% 20%;
+        padding: 5% 30% 5% 10%;
         text-align: center;
     }
 
@@ -1152,7 +1152,7 @@ footer {
     @media screen and (min-width:635px) {
 
         .featured-description {
-            width: 82%;
+            width: 84%;
         }
 
         .btn-join {
@@ -1171,8 +1171,13 @@ footer {
             left: -9%;
         }
 
+        .featured-title {
+            width: 120%;
+        }
+
         .featured-description {
-            width: 73%;
+            width: 75%;
+            left: 130px;
         }
 
         .btn-join {
@@ -1183,7 +1188,7 @@ footer {
     
     @media screen and (min-width:707px) {
         .featured-title {
-            width: 93%;  
+            width: 110%;  
         } 
 
     }
@@ -1228,7 +1233,6 @@ footer {
 
         .featured-description {
             width: 69%;
-            left: 160px;
         }
 
         .btn-join {
