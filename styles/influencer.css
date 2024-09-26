@@ -611,6 +611,33 @@ footer {
         font-size: 12px;
     }
 
+    @media screen and (min-width:360px) {
+        .banner-content {
+            margin: -250px 10px 20px -180px;
+        }
+
+        .banner-description {
+            margin-left: 85px;
+        }
+
+        .logo {
+            margin-left: -20px;
+        }
+
+        .popular-container {
+            width: 75%;
+        }
+
+        .see-more {
+            left: -32%;
+        }
+
+        .featured-img img {
+            margin-left: 60px;
+        }
+
+    }
+
     @media screen and (min-width:375px) {
         .nav {
             margin-left: 30px;
@@ -678,10 +705,21 @@ footer {
 
     }
 
-    @media screen and (min-width:410px) {
+    @media screen and (min-width:411px) {
+        .popular-container {
+            width: 84%;
+        }
+
+        .popular-image {
+            width: 91%;
+        }
+
+        .see-more {
+            left: -23%;
+        }
+        
         .footer-content {
-            padding: 5% 25% 5% 15%;
-            text-align: center; 
+            padding: 5% 25% 5% 15%; 
         }
 
     }
