@@ -20,6 +20,9 @@
 
 body {
     margin: 0 auto;
+    background-image: url("../images/background.png");
+    /* background-repeat: no-repeat;
+    position: absolute; */
 }
 
 .container {
@@ -52,9 +55,18 @@ body {
     font-weight: 600;
 }
 
+.nav li:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
 .nav li a {
     text-decoration: none;
     color: rgb(66, 66, 66);
+}
+
+.nav li a:hover {
+    color: #b30059;
 }
 
 .nav-title {
@@ -101,6 +113,8 @@ body {
 
 .logo a:hover img {
     cursor: pointer !important;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
 }
 
 /* banner styles */
@@ -145,7 +159,7 @@ body {
 
 .banner-description {
     font-family: var(--font-poppins);
-    color: var(--primary-color);
+    color:  #800000;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -160,6 +174,13 @@ body {
     font-size: 1rem;
     font-weight: 700;
     padding: 10px 24px;
+}
+
+.btn-prebook:hover {
+    background: #800080;
+    color: rgb(182, 235, 235);
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
 }
 
 .arrow {
@@ -181,7 +202,6 @@ body {
 .popular-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    /* justify-items: center; */
     align-items: center;
     padding:0 150px;
     gap: 30px;
@@ -194,13 +214,17 @@ body {
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
 
+.popular-items:hover {
+    background-color:#ccf2ff;
+}
+
 .popular-image {
     margin: 17px 15px 5px;
 }
 
 .popular-text {
     font-family: var(--font-poppins);
-    color: rgb(24, 25, 31);
+    color:#521b02;
     font-size: 1.75rem;
     font-weight: 500;
     margin-top: 10px;
@@ -224,6 +248,8 @@ body {
 }
 
 .rating-icon .star-half {
+    width: 21px;
+    height:21px;
     margin-bottom: 3px;
 }
 
@@ -266,6 +292,10 @@ body {
     margin-left: 5px;
 }
 
+.see-more a:hover {
+    color: blueviolet;
+}
+
 /* featured styles */
 .featured {
     display: flex;
@@ -279,14 +309,15 @@ body {
 }
 
 .featured-title {
-    color: rgb(10, 8, 38);
+    color: #b30059;
     font-family: var(--font-poppins);
     font-size: 2.375rem;
     font-weight: 700;
 }
 
 .featured-description {
-    color: rgb(108, 108, 108);
+    /* color: rgb(108, 108, 108); */
+    color:  #862d59;
     font-family: var(--font-poppins);
     font-size: 1rem;
     font-weight: 700;
@@ -294,7 +325,7 @@ body {
 }
 
 .btn-join {
-    background: rgb(224, 44, 109);
+    background: #800080;
     border: 0;
     cursor: pointer;
     color: rgb(255, 255, 255);
@@ -305,11 +336,18 @@ body {
     padding: 10px 24px;
 }
 
+.btn-join:hover {
+    background: #024141;
+    color: #f2f2f2;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
 /* footer styles */
 footer {
     width: 100%;
     margin-top: 120px;
-    background: rgb(7, 2, 17);
+    background:#023535;
     /* align-items: center; */
     /* justify-content: center; */
     color: rgb(255, 255, 255);
@@ -354,15 +392,17 @@ footer {
     justify-content: center;
     width: 32px;
     height: 32px;
-    background-color: rgba(255, 255, 255, 0.2);
-    /* Light white background */
-    border-radius: 50%;
-    /* Circular shape */
-    color: #fff;
-    /* Icon color */
-    font-size: 17px;
-    /* Icon size */
+    background-color: #009999;
+    border-radius: 50%; /* Circular shape */
+    color:#800080; /* Icon color */
+    font-size: 17px; /* Icon size */
     text-decoration: none;
+}
+
+.social-icon:hover {
+    color:#bf4080;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
 }
 
 /* responsive media queries */
@@ -1159,12 +1199,12 @@ footer {
         }
 
         .featured-title {
-            width: 120%;
+            width: 110%;
         }
 
         .featured-description {
             width: 75%;
-            left: 130px;
+            left: 110px;
         }
 
         .btn-join {
@@ -1175,7 +1215,7 @@ footer {
     
     @media screen and (min-width:707px) {
         .featured-title {
-            width: 110%;  
+            width: 100%;  
         } 
 
     }
@@ -1220,10 +1260,6 @@ footer {
 
         .featured-description {
             width: 69%;
-        }
-
-        .btn-join {
-            left: 230px;
         }
 
         .footer-content {
