@@ -109,6 +109,8 @@ body {
 
 .logo a img {
     padding-right: 60px;
+    position: relative;
+    z-index: 9;
 }
 
 .logo a:hover img {
@@ -1575,8 +1577,6 @@ footer {
     .logo a img {
         padding-right: 30px;
         width: 90%;
-        position: relative;
-        z-index: 2; /*Ensures hover takes effect if other elements are above */
     }
 
     .popular-title {
