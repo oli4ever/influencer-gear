@@ -1524,13 +1524,13 @@ footer {
         transform: scale(1.2);
         transition: transform 0.3s ease-in-out;
         position: relative;
-        z-index: 3;
+        z-index: 10;
     }
     
     .nav li a:hover {
         color: #b30059;
         position: relative;
-        z-index: 3;
+        z-index: 11;
     }
 
     .banner {
