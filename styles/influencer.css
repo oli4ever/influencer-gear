@@ -51,6 +51,8 @@ body {
     color: var(--primary-color);
     font-size: 1rem;
     font-weight: 600;
+    position: relative;
+    z-index: 10;
 }
 
 .nav li:hover {
@@ -1520,19 +1522,6 @@ footer {
         white-space: nowrap;
     }
 
-    .nav li:hover {
-        transform: scale(1.2);
-        transition: transform 0.3s ease-in-out;
-        position: relative;
-        z-index: 10;
-    }
-    
-    .nav li a:hover {
-        color: #b30059;
-        position: relative;
-        z-index: 11;
-    }
-
     .banner {
         margin-top: -150px;
         justify-content: flex-start;
@@ -1571,7 +1560,7 @@ footer {
     }
 
     .logo-container {
-        margin-top: -100px;
+        margin-top: -50px;
     }
 
     .line1, .line2 {
