@@ -1016,11 +1016,6 @@ footer {
         margin-left: 50%;
     }
 
-    .logo a img {
-        position: relative;
-        z-index: 2; /*Ensures hover takes effect if other elements are above  */
-    }
-
     .popular {
         display: flex;
         flex-direction: column;
@@ -1386,8 +1381,7 @@ footer {
         width: 60px;
         height: auto;
         padding-right: 10px;
-        position: relative;
-        z-index: 2; /*Ensures hover takes effect if other elements are above  */
+        
     }
 
     .logo a:nth-child(5),
@@ -1522,17 +1516,19 @@ footer {
     }
 
     .nav > ul {
-        margin-left: 160px; /* Adjust this value to control the space */
+        margin-left: 200px; /* Adjust this value to control the space */
         white-space: nowrap;
     }
 
     .nav li:hover {
         transform: scale(1.2);
         transition: transform 0.3s ease-in-out;
+        z-index: 3;
     }
     
     .nav li a:hover {
         color: #b30059;
+        z-index: 3;
     }
 
     .banner {
@@ -1582,12 +1578,14 @@ footer {
     }
     
     .logo {
-        margin: 36px 62px 35px 50px;
+        margin: 36px 62px 35px 60px;
     }
     
     .logo a img {
         padding-right: 30px;
         width: 90%;
+        position: relative;
+        z-index: 2; /*Ensures hover takes effect if other elements are above */
     }
 
     @media screen and (min-width:1070px){
@@ -1611,7 +1609,7 @@ footer {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             width: 90%;
-            padding: 0 20px 0 70px;
+            padding: 0 0 0 60px;
             align-items: center;
     } 
 
@@ -1624,7 +1622,7 @@ footer {
     }
 
     .see-more {
-        margin-left: 78%;
+        margin-left: 80%;
     }
 
     .featured {
