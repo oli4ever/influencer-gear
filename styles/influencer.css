@@ -1523,11 +1523,13 @@ footer {
     .nav li:hover {
         transform: scale(1.2);
         transition: transform 0.3s ease-in-out;
+        position: relative;
         z-index: 3;
     }
     
     .nav li a:hover {
         color: #b30059;
+        position: relative;
         z-index: 3;
     }
 
@@ -1588,18 +1590,6 @@ footer {
         z-index: 2; /*Ensures hover takes effect if other elements are above */
     }
 
-    @media screen and (min-width:1070px){
-        .nav > ul {
-            margin-left: 270px;
-        }
-    }
-
-    @media screen and (min-width:1120px){
-        .nav > ul {
-            margin-left: 280px;
-        }
-    }
-
     .popular-title {
         margin: 10px 70px 30px 5px;
         text-align: center;
@@ -1619,6 +1609,14 @@ footer {
 
     .popular-image {
         width: 89%;
+    }
+
+    .popular-text {
+        font-size: 1.5rem;
+    }
+
+    .price {
+        font-size: 1.375rem;
     }
 
     .see-more {
@@ -1658,6 +1656,20 @@ footer {
         padding: 50px 300px;  
     }
     
-    
+    @media screen and (min-width:1070px){
+        .nav > ul {
+            margin-left: 270px;
+        }
+
+        .logo-container {
+            margin-top: -50px;
+        }
+    }
+
+    @media screen and (min-width:1120px){
+        .nav > ul {
+            margin-left: 280px;
+        }
+    }  
 
 }
