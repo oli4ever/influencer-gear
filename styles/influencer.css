@@ -609,14 +609,14 @@ footer {
 
     .featured-description {
         font-size: 0.75rem;
-        width: 71%;
+        width: 75%;
         text-align: center;
         position: relative;
-        left: 80px;
+        left: 70px;
     }
     
     .btn-join {
-        margin-left: 130px;
+        margin-left: 110px;
         padding:10px 20px;
     }
 
@@ -832,12 +832,12 @@ footer {
         }
 
         .featured-description {
-            width: 60%;
-            left:70px;
+            width: 65%;
+            left:60px;
         }
 
         .btn-join {
-            margin-left: 120px;
+            margin-left: 110px;
         }
 
         .featured-img img {
@@ -875,8 +875,8 @@ footer {
         }
 
         .featured-description {
-            width: 59%;
-            left: 70px;
+            width: 60%;
+            left: 60px;
         }
     }
 
