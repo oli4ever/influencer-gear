@@ -1175,6 +1175,10 @@ footer {
 
     @media screen and (min-width:619px) {
 
+        .nav>ul {
+            left: 40%;
+        }
+        
         .see-more {
             left: -9%;
         }
@@ -1214,10 +1218,6 @@ footer {
 
         .nav {
             margin-left: 30px;
-        }
-
-        .nav>ul {
-            left: 40%;
         }
 
         .background-image {
